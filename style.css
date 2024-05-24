@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a{
+ text-decoration: none;
+
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    
+}
+.hov {
+    --bs-btn-border-color: none !important;
+}
+
+  .card.product-wap .card .product-overlay {
+    background: rgba(0,0,0,.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+  }
+  .card.product-wap:hover .card .product-overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+.templatemo-accordion a { color: #000;}
+.templatemo-accordion a:hover { color: #333d4a;}
+
+
+@media only screen and (max-width: 460px) {
+  .naa {
+   margin-left: 70px;
+  }
+}
+
+
+
+ @media only screen and (max-width: 1490px) {
+  .non {
+   width: 100% ;}
+} 
